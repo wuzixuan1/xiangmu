@@ -1,0 +1,317 @@
+
+    /* 头部 */
+    .header {
+        width: 100%;
+        height: 88px;
+
+    }
+
+    .header_title {
+        width: 1194px;
+        height: 88px;
+        margin: 0 auto;
+    }
+
+    .header_title1 {
+        width: 180px;
+        height: 28px;
+        padding-top: 30px;
+    }
+
+    .header_title img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* 中心 */
+    .main {
+        width: 100%;
+        height: 602px;
+        background: #f24117;
+        background: url("../../images/log/4.jpg");
+
+    }
+
+    .main_box1 {
+        width: 1194px;
+        height: 600px;
+       
+        margin: 0 auto;
+        position: relative;
+    }
+
+    /* 注册框 */
+    .Registered_box {
+        width: 350px;
+        height: 405px;
+       
+        position: absolute;
+        right: 0;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+
+    }
+
+    .Registered_box .RegSpan1 {
+        display: block;
+        width: 104px;
+        height: 26px;
+        border: 1px solid #f3d995;
+        background: #fefcee;
+        font-size: 12px;
+        color: orange;
+        line-height: 26px;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 186px;
+    }
+
+    .RegSpan2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+    }
+
+    .Registered_box .Registered_box1 {
+        width:  500px;
+        height: 400px;
+        margin: 0 auto;
+        position: relative;
+
+    }
+
+    .Registered_box .Registered_box1 .span1 {
+        width: 65px;
+        height: 30px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-right: 8px;
+        color: #f24117;
+        cursor: pointer;
+
+    }
+
+    .Registered_p1 {
+        widows: 300px;
+        height: 44px;
+        margin-top: 20px;
+        background: #ffffff;
+        border: 1px solid #cccccc;
+    }
+
+    .Registered_p1 i {
+        padding: 12px 10px 12px;
+        background: #cccccc;
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        line-height: 44px;
+        font-style: normal;
+    }
+
+    .Registered_p1 input {
+        border: none;
+        width: 250px;
+        height: 38px;
+        font-size: 13px;
+        padding-left: 3px;
+
+    }
+    
+    #username_span{
+        color:chartreuse;
+        display: none;
+    }
+    .Registered_box1 button {
+        position: absolute;
+        bottom:80px;
+        width: 100%;
+        height: 36px;
+        background: red;
+        border: none;
+        color: seashell;
+        cursor: pointer;
+        margin-top: 30PX;
+    }
+    .Registered_p2{
+        margin-top: 30px;
+    }
+
+    #strong{
+          
+        display: none;
+    }
+    #strong span{
+            width: 60px;
+            height: 25px;
+            background-color: gray;
+            display: block;
+            float: left;
+            text-align: center;
+            margin: 3px;
+            color: white;
+            line-height: 25px;
+            font-weight: 500;
+            font-size: 16px;
+        }
+    #strong .act{
+            background-color: orange;
+            color: black;
+            line-height: 25px;
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        .active1{
+            display: none;
+            color: greenyellow;
+        }
+
+
+
+
+        .alert{
+            width: 300px;
+            height: 40px;
+            background: pink;
+            margin:0  auto;
+            display: none;
+            color: red;
+            text-align: center;
+            line-height: 40px;
+         }
+         .alert-success{
+            text-align: center;
+            line-height: 40px;
+            color: yellowgreen;
+         }
+    /* 页面尾部 */
+    .footer {
+        width: 100%;
+        height: 250px;
+    }
+
+    .footer_box {
+        height: 205px;
+        width: 1194px;
+        margin: 0 auto;
+        background: #fff;
+        padding-top: 25px;
+    }
+
+    .footer_box1 {
+        margin-top: 24px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 12px;
+    }
+
+    .footer .footer_ul1 li {
+        float: left;
+        font-size: 12px;
+        margin-right: 8px;
+    }
+
+    .footer a {
+        color: #000;
+    }
+
+    .footer a:hover {
+        text-decoration: underline;
+        color: red;
+    }
+
+    .footer_box2 {
+        width: 100%;
+        height: 12px;
+    }
+
+    .footer .footer_ul2 li {
+
+        float: left;
+        font-size: 12px;
+        margin-right: 8px;
+    }
+
+    .footer .footer_box3 {
+        margin-top: 15px;
+        height: 12px;
+        width: 100%;
+    }
+
+    .footer .footer_box3 span {
+        color: #666666;
+        font-size: 12px;
+        margin-right: 12px;
+    }
+
+    .footer .footer_box3 a {
+        color: #999999;
+        font-size: 12px;
+        margin-right: 71px;
+    }
+
+    .footer .footer_box4 {
+        margin-top: 10px;
+        width: 100%;
+        height: 12px;
+
+    }
+
+    .footer .footer_box4 span {
+        color: #666666;
+        font-size: 12px;
+        margin-right: 12px;
+    }
+
+    .footer .footer_box4 span img {
+        display: inline-block;
+        margin-top: 5px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer .footer_box4 a {
+        color: #999999;
+        font-size: 12px;
+        margin-right: 71px;
+    }
+
+    .footer .footer_box5 {
+        margin-top: 20px;
+        width: 100%;
+        height: 12px;
+    }
+
+    .footer .footer_box5 span {
+        color: #666666;
+        font-size: 12px;
+        margin-right: 12px;
+    }
+
+    .footer .footer_box5 a {
+        color: #999999;
+        font-size: 12px;
+        margin-right: 71px;
+    }
+
+    .footer .footer_box6 {
+        margin-top: 10px;
+        width: 100%;
+        height: 12px;
+    }
+
+    .footer .footer_box6 span {
+        color: #666666;
+        font-size: 12px;
+        margin-right: 12px;
+    }
+
+    .footer .footer_box6 a {
+        color: #999999;
+        font-size: 12px;
+        margin-right: 71px;
+    }
